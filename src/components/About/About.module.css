@@ -4,6 +4,7 @@
 
 .Img {
   align-items: center;
+  width: 100%;
 }
 .Info {
   color: black;

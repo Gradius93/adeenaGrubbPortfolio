@@ -1,6 +1,7 @@
 .Name {
   font-family: 'Josefin Sans';
-  background-color: white;
+  font-weight: 500;
+  margin: 35px;
   padding: 8px;
   height: 100%;
   box-sizing: border-box;
