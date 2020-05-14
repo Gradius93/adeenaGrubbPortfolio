@@ -1,4 +1,4 @@
-.NavigationItems {
+.NavItems {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -9,8 +9,13 @@
 
 }
 
+.Adeena {
+  margin-right: auto;
+  text-align: left;
+}
+
 @media (min-width: 500px) {
-  .NavigationItems {
+  .NavItems {
     flex-flow: row;
   }
 }

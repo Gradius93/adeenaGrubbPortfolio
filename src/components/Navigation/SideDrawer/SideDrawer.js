@@ -1,7 +1,6 @@
 import React from 'react'
 
-import Logo from '../../Logo/Logo'
-import NavigationItems from '../NavigationItems/NavigationItems'
+import NavItems from '../NavItems/NavItems'
 import classes from './SideDrawer.module.css'
 import Backdrop from '../../UI/Backdrop/Backdrop'
 import Aux from '../../../hoc/Aux/Aux'
@@ -19,11 +18,8 @@ const sideDrawer = ( props ) => {
         clicked={props.closed}
       />
       <div className={attachedClasses.join(' ')}>
-        <div className={classes.Logo}>
-          <Logo />
-        </div>
         <nav>
-          <NavigationItems />
+          <NavItems />
         </nav>
       </div>
     </Aux>
