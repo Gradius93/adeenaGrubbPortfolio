@@ -1,12 +1,15 @@
 .NavItem {
+  font-family: 'Josefin Sans';
+  font-size: 20px;
   margin: 10px 0;
   box-sizing: border-box;
   display: block;
   width: 100%;
+
 }
 
 .NavItem a {
-  color: white;
+  color: Black;
   text-decoration: none;
   width: 100%;
   box-sizing: border-box;
@@ -15,8 +18,7 @@
 }
 
 .NavItem a:hover,
-.NavItem a:active,
-.NavItem a.active {
+.NavItem a:active {
   color: #40a4c8;
 }
 
@@ -30,7 +32,7 @@
   }
 
   .NavItem a {
-    color: white;
+    color: Black;
     height: 100%;
     padding: 16px 10px;
     border-bottom: 4px solid transparent;
@@ -39,10 +41,8 @@
 
   .NavItem a:hover,
   .NavItem a:active,
-  .NavItem a.active {
-    background-color: white;
-    border-bottom: 4px solid #40a4c8;
-    color: white;
+  a:hover {
+    color: grey;
   }
 
 }

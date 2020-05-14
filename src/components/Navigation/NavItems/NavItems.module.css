@@ -1,17 +1,11 @@
 .NavItems {
-  margin: 0;
-  padding: 0;
+  margin: 60px;
   list-style: none;
   display: flex;
   flex-flow: column;
   align-items: center;
   height: 100%;
 
-}
-
-.Adeena {
-  margin-right: auto;
-  text-align: left;
 }
 
 @media (min-width: 500px) {
