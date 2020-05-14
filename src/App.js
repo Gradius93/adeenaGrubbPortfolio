@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
+import { Route } from 'react-router-dom'
 
-
+import Home from './containers/Home/Home'
 
 class App extends Component {
   render () {
     return (
       <div>
-        <h1>Hello World</h1>
+        <Route path="/" component={Home} />
       </div>
     )
   }
