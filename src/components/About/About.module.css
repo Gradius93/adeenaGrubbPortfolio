@@ -1,11 +1,26 @@
 .About {
   text-align: center;
+  z-index: auto;
+  font-family: 'Josefin Sans';
+  margin-bottom: 100px;
+
 }
 
-.Img {
+.Img img {
   align-items: center;
-  width: 100%;
+  width: 35%;
+  margin-top: 5px;
 }
-.Info {
+.Info p {
+  text-align: center;
   color: black;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.InsideInfo {
+}
+.Contact {
+
 }

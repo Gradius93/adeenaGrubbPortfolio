@@ -8,6 +8,7 @@ const navItems = () => (
       <NavItem link="/gallery">Gallery</NavItem>
       <NavItem link="/about">About</NavItem>
       <NavItem link="/vimeo">Vimeo</NavItem>
+      <NavItem link="/youtube">Youtube</NavItem>
       <NavItem link="/insta">Instagram</NavItem>
   </ul>
 )
